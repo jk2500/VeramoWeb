@@ -11,6 +11,7 @@
   "dependencies": {
     "@ethersproject/shims": "^5.7.0",
     "@expo/webpack-config": "^0.17.2",
+    "@react-native-picker/picker": "^2.4.8",
     "@sinonjs/text-encoding": "^0.7.2",
     "@veramo/core": "^4.2.0",
     "@veramo/credential-w3c": "^4.2.0",
