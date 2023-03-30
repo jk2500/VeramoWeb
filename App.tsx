@@ -161,7 +161,7 @@ const App = () => {
 
                 )}
     
-        <Text style = {styles.heading}>ISSUE NEW VS</Text>
+        <Text style = {styles.heading}>ISSUE NEW VC</Text>
         <Text style = {styles.subhead}>Students details</Text>
 
         <View style = {styles.container}>
@@ -198,7 +198,10 @@ const App = () => {
             onPress={() => createCredential(did, rollNo, courseName, grade)}
           />
 
-                      <Text>{JSON.stringify(credential?.credentialSubject, null, 2)}</Text>
+                      <Text>Roll Number: {credential?.credentialSubject.RollNo}</Text>
+                      <Text>Course Name: {credential?.credentialSubject.Course}</Text>
+                      <Text>Grade: {credential?.credentialSubject.Grade}</Text>
+
 
           <Button onPress={onShare} title="Share" />
       </View>
