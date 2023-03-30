@@ -1,0 +1,92 @@
+pre {
+  font-family: sans-serif;
+  white-space: pre;
+}
+ 
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+
+.text {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.input {
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  border: none;
+  border-bottom: 2px solid black;
+  margin-bottom: 1rem;
+  width: 95%; /* Increase the width */
+}
+
+.form-box {
+  border: 1px solid gray;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-top: 2rem;
+  display: flex; /* Set display to flex */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Center align child elements */
+}
+
+button[type='submit'] {
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  border: none;
+  background-color: blue;
+  color: white;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  width: 100%; /* Set width to 100% */
+  margin-top: 1rem; /* Add margin */
+}
+
+button[type='submit']:hover {
+  background-color: darkblue;
+}
+
+#result {
+  margin-top: 2rem;
+  border: 1px solid gray;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  font-size: 1.2rem;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-family: 'Arial', sans-serif; /* Add a sans-serif font */
+  color: #333; /* Add a color */
+}
+
+#green {
+  color: green;
+}
+#red {
+  color: red;
+}
+
