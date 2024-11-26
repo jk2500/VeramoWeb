@@ -33,7 +33,9 @@ const INFURA_PROJECT_ID = 'ee376705129e4330b655026fae0c9d00'
 // This is a raw X25519 private key, provided as an example.
 // You can run `npx @veramo/cli config create-secret-key` in a terminal to generate a new key.
 // In a production app, this MUST NOT be hardcoded in your source code.
-const DB_ENCRYPTION_KEY = '29739248cad1bd1a0fc4d9b75cd4d2990de535baf5caadfdf8d8f86664aa830c'
+const DB_ENCRYPTION_KEY = 'xxxxxxxxxxxxxxxxxxx'
+
+import { W3cMessageHandler } from '@veramo/credential-w3c'
 
 
 
